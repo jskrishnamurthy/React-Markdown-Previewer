@@ -1,9 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Markdown Previewer APP
+ _A Pen created at CodePen.io. Original URL: [React-Markdown-Previewer](https://codepen.io/jkrishnamurthy/full/dBRERV).
 
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm install marked --save`
+### `npm install node-sass`
+### `npm install --save bootstrap`
 ### `npm start`
 
 Runs the app in the development mode.<br>
