@@ -18,15 +18,15 @@ class Marked_Previewer extends React.Component{
         }
         this.transformMarkdown = this.transformMarkdown.bind(this);
     }
-    componentDidMount() {
-        const script = document.createElement("script");
+    //componentDidMount() {
+    //    const script = document.createElement("script");
     
-        script.src =
-          "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js";
-        script.async = true;
+    //    script.src =
+     //     "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js";
+    //    script.async = true;
     
-        document.body.appendChild(script);
-      }
+    //    document.body.appendChild(script);
+     // }
 
     transformMarkdown(event){
         var rawMarkup = marked(event.target.value, {sanitize: true});
